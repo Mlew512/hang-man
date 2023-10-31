@@ -1,0 +1,86 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  /* line-height: 1.5;
+  font-weight: 400; */
+
+  color-scheme: light dark;
+  color: black;
+  background-image:url("https://media.istockphoto.com/id/1283573104/vector/pirate-ship-and-island-with-skull-cave.jpg?s=612x612&w=0&k=20&c=UZY8ETYxlJWneReZijSjPDqQx8sZ19R5HhrQPGFKxJc=");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+#buttonContainer2{
+  background-image: url("https://i.pinimg.com/originals/9b/0b/72/9b0b72e40b416275841ad74994964015.png");
+  background-size: cover;
+}
+
+
+
+#buttonContainer{
+  background-image: url("https://i.pinimg.com/originals/9b/0b/72/9b0b72e40b416275841ad74994964015.png");
+  background-size: cover;
+  height:40px;
+  width:200px;
+  display: flex;
+  justify-content: center;
+  margin-left: 15px;
+}
+button {
+  /* border-radius: 8px; */
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  width:225px;
+  font-family: inherit;
+  /* background-color: gold; */
+  /* background-image: url("https://i.pinimg.com/originals/9b/0b/72/9b0b72e40b416275841ad74994964015.png");
+  background-size: contain; */
+  cursor: pointer;
+
+  background: transparent;
+  
+  /* transition: border-color 0.25s; */
+  color:black;
+}
+
+button:hover{
+  text-decoration: underline;
+  color: black;
+}
+
+
+#hanger{
+  height: 100px;
+} 
